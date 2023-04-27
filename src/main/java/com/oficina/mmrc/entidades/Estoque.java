@@ -1,2 +1,4 @@
-package com.oficina.mmrc.entidades;public class Estoque {
+package com.oficina.mmrc.entidades;
+
+public class Estoque {
 }
