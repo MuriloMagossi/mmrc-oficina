@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1d5e69;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projinter.projinter.MainController">
+   <children>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: #23998e; ">
+         <children>
+            <VBox fx:id="vbox_btns" layoutY="86.0" prefHeight="300.0" prefWidth="200.0" style="-fx-background-color: #23998e;">
+               <children>
+                  <Button fx:id="btn_cadastrarVenda" mnemonicParsing="false" onAction="#botaoClicado" onMouseEntered="#mudaCorBotao" onMouseExited="#voltaCorBotao" opacity="1" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #23998e;" text="Cadastrar Venda" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <font>
+                        <Font name="Candara" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_buscarPeca" mnemonicParsing="false" onAction="#botaoClicado" onMouseEntered="#mudaCorBotao" onMouseExited="#voltaCorBotao" opacity="1" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #23998e;" text="Buscar Peça" textFill="WHITE">
+                     <font>
+                        <Font name="Candara" size="18.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button fx:id="btn_buscarCliente" disable="true" opacity="1" mnemonicParsing="false" onAction="#botaoClicado" onMouseEntered="#mudaCorBotao" onMouseExited="#voltaCorBotao" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #1d5e69;" text="Buscar Cliente" textFill="WHITE">
+                     <font>
+                        <Font name="Candara" size="22.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button fx:id="btn_buscarServico" mnemonicParsing="false" onAction="#botaoClicado" onMouseEntered="#mudaCorBotao" onMouseExited="#voltaCorBotao" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #23998e;" text="Buscar Serviço" textFill="WHITE">
+                     <font>
+                        <Font name="Candara" size="18.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button fx:id="btn_relatorios" mnemonicParsing="false" onAction="#botaoClicado" onMouseEntered="#mudaCorBotao" onMouseExited="#voltaCorBotao" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #23998e;" text="Relatórios" textFill="WHITE">
+                     <font>
+                        <Font name="Candara" size="18.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
